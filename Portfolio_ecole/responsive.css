@@ -1,0 +1,778 @@
+
+/* ---------------------------------Responsiv-------------------------------- */
+@media screen and (max-width: 1176px){
+  .Competence{
+    margin-top: 1400px;
+    margin-left: 40px;
+    margin-right: 20px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  h5{
+    font-size: 30px;
+    color: white;
+    font-family: 'ts_blockbold';
+  
+  }
+   }
+
+
+/* ---------------------------------cv-------------------------------- */
+@media screen and (max-width: 1176px){
+  .bar-graph {
+    list-style: none;
+    margin-top: 100px;
+    padding-right: 200px;
+    margin-left: 200px;
+    
+  }
+  
+   }
+
+   @media screen and (max-width: 560px){
+    .bar-graph {
+      list-style: none;
+      margin-top: 100px;
+      padding-right: 80px;
+      margin-left: 100px;
+      
+    }
+    
+     }
+
+/* ---------------------------------cv-------------------------------- */
+
+
+@media screen and (max-width: 1186px){
+  .image-cv{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1700px;
+    padding-right: 80px;
+ 
+  margin: 50px 0px auto;
+  }
+   }
+
+
+   
+@media screen and (max-width: 990px){
+  .image-cv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1700px;
+  
+ 
+  
+
+  }
+
+
+  .taille{
+  width: 600px;
+  display: grid;
+  place-items: center;
+
+
+  }
+   }
+
+
+     
+@media screen and (max-width: 970px){
+  .image-cv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1700px;
+  
+ 
+  
+
+  }
+
+
+  .taille{
+  width: 500px;
+  display: grid;
+  place-items: center;
+
+
+  }
+   }
+
+   @media screen and (max-width: 770px){
+    .image-cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1700px;
+    left: 100px;
+   
+    
+  
+    }
+  
+  
+    .taille{
+    width: 500px;
+    display: grid;
+    place-items: center;
+  
+  
+    }
+     }
+
+     @media screen and (max-width: 645px){
+      .image-cv{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 1700px;
+      left: 100px;
+     
+      
+    
+      }
+    
+    
+      .taille{
+      width: 400px;
+      display: grid;
+      place-items: center;
+    
+    
+      }
+       }
+       @media screen and (max-width: 470px){
+        .image-cv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 1700px;
+        left: 100px;
+        }
+      
+        .taille{
+        width: 300px;
+        display: grid;
+        place-items: center;
+      
+      
+        }
+         }
+
+/* ---------------------------------2-------------------------------- */
+
+@media screen and (max-width: 1522px){
+ .photo{
+  width: 30%;
+  padding-left: 150px;
+
+  position: absolute;
+  top: 32%;
+  display: grid;
+  place-items: center;
+
+}
+  }
+
+  @media screen and (max-width: 1362px){
+    .photo{
+     width: 33%;
+     padding-left: 150px;
+     position: absolute;
+     top: 32%;
+     display: grid;
+     place-items: center;
+   
+   }
+     }
+
+     @media screen and (max-width: 1230px){
+      .photo{
+       width: 33%;
+       padding-left: 120px;
+       position: absolute;
+       top: 32%;
+       display: grid;
+       place-items: center;
+     
+     }
+       }
+       @media screen and (max-width: 1082px){
+        .photo{
+         width: 33%;
+         padding-left: 100px;
+         position: absolute;
+         top: 32%;
+         display: grid;
+         place-items: center;
+       
+       }
+         }
+         @media screen and (max-width: 1000px){
+          .photo{
+           width: 70%;
+           padding-left: 400px;
+           position: absolute;
+           top: 37%;
+           display: grid;
+           place-items: center;
+         
+         }
+           }
+           @media screen and (max-width: 908px){
+            .photo{
+              width: 78%;
+              padding-left: 400px;
+              position: absolute;
+              top: 37%;
+              display: grid;
+              place-items: center;
+            
+            }
+             }
+             @media screen and (max-width: 930px){
+              .photo{
+                width: 78%;
+                padding-left: 400px;
+                position: absolute;
+                top: 40%;
+                display: grid;
+                place-items: center;
+              
+              }
+               }
+               @media screen and (max-width: 774px){
+                .photo{
+                  width: 78%;
+                  padding-left: 400px;
+                  position: absolute;
+                  top: 40%;
+                  display: grid;
+                  place-items: center;
+                
+                }
+                 }
+                 @media screen and (max-width: 730px){
+                  .photo{
+                    width: 75%;
+                    padding-left: 200px;
+                    position: absolute;
+                    top: 30%;
+                    display: grid;
+                    place-items: center;
+                  
+                  }
+                   }
+                   @media screen and (max-width: 655px){
+                    .photo{
+                      width: 75%;
+                      padding-left: 200px;
+                      position: absolute;
+                      top: 35%;
+                      display: grid;
+                      place-items: center;
+                    
+                    }
+                     }
+/* ---------------------------------Responsiv-------------------------------- */
+
+@media screen and (max-width: 1650px){
+  .prenom{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    padding-left: 22%;
+    transform: translatey(50%);
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    z-index: 10;
+  }
+  
+  .timothe{
+    font-size: 70px;
+  
+    font-family: 'ts_blockbold';
+  }
+  .nom{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    padding-left: 48%;
+    transform: translatey(50%);
+  
+  
+  }
+  .HEGE{
+    font-size: 70px;
+    color: white;
+    font-family: 'ts_blockbold';
+  
+  }
+  }
+
+
+
+  @media screen and (max-width: 956px){
+    .prenom{
+      display: flex;
+      overflow-x: hidden;
+      width: 100%;
+      position: absolute;
+      top: 10%;
+      padding-left: 18%;
+      transform: translatey(50%);
+      color: rgba(255, 255, 255, 0);
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+      z-index: 10;
+    }
+    
+    .timothe{
+      font-size: 70px;
+    
+      font-family: 'ts_blockbold';
+    }
+    .nom{
+      display: flex;
+      overflow-x: hidden;
+      width: 100%;
+      position: absolute;
+      top: 20%;
+      padding-left: 48%;
+      transform: translatey(50%);
+    
+    
+    }
+    .HEGE{
+      font-size: 70px;
+      color: white;
+      font-family: 'ts_blockbold';
+    
+    }
+    }
+    @media screen and (max-width: 708px){
+      .prenom{
+        display: flex;
+        overflow-x: hidden;
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        padding-left: 16%;
+        transform: translatey(50%);
+        color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+        z-index: 10;
+      }
+      
+      .timothe{
+        font-size: 70px;
+      
+        font-family: 'ts_blockbold';
+      }
+      .nom{
+        display: flex;
+        overflow-x: hidden;
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        padding-left: 48%;
+        transform: translatey(50%);
+      
+      
+      }
+      .HEGE{
+        font-size: 70px;
+        color: white;
+        font-family: 'ts_blockbold';
+      
+      }
+      }
+
+    @media screen and (max-width: 638px){
+        .prenom{
+          display: flex;
+          overflow-x: hidden;
+          width: 100%;
+          position: absolute;
+          top: 10%;
+          padding-left: 10%;
+          transform: translatey(50%);
+          color: rgba(255, 255, 255, 0);
+          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: white;
+          z-index: 10;
+        }
+        
+        .timothe{
+          font-size: 70px;
+        
+          font-family: 'ts_blockbold';
+        }
+        .nom{
+          display: flex;
+          overflow-x: hidden;
+          width: 100%;
+          position: absolute;
+          top: 20%;
+          padding-left: 48%;
+          transform: translatey(50%);
+        
+        
+        }
+        .HEGE{
+          font-size: 70px;
+          color: white;
+          font-family: 'ts_blockbold';
+        
+        }
+        }
+        @media screen and (max-width: 558px){
+          .prenom{
+            display: flex;
+            overflow-x: hidden;
+            width: 100%;
+            position: absolute;
+            top: 10%;
+            padding-left: 2%;
+            transform: translatey(50%);
+            color: rgba(255, 255, 255, 0);
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: white;
+            z-index: 10;
+          }
+          
+          .timothe{
+            font-size: 70px;
+          
+            font-family: 'ts_blockbold';
+          }
+          .nom{
+            display: flex;
+            overflow-x: hidden;
+            width: 100%;
+            position: absolute;
+            top: 20%;
+            padding-left: 40%;
+            transform: translatey(50%);
+          
+          
+          }
+          .HEGE{
+            font-size: 70px;
+            color: white;
+            font-family: 'ts_blockbold';
+          
+          }
+          }
+
+   @media screen and (max-width: 508px){
+            .prenom{
+              display: flex;
+              overflow-x: hidden;
+              width: 100%;
+              position: absolute;
+              top: 10%;
+              padding-left: 2%;
+              transform: translatey(50%);
+              color: rgba(255, 255, 255, 0);
+              -webkit-text-stroke-width: 2px;
+              -webkit-text-stroke-color: white;
+              z-index: 10;
+            }
+            
+            .timothe{
+              font-size: 50px;
+            
+              font-family: 'ts_blockbold';
+            }
+            .nom{
+              display: flex;
+              overflow-x: hidden;
+              width: 100%;
+              position: absolute;
+              top: 20%;
+              padding-left: 40%;
+              transform: translatey(50%);
+            
+            
+            }
+            .HEGE{
+              font-size: 50px;
+              color: white;
+              font-family: 'ts_blockbold';
+            
+            }
+            }
+
+
+
+
+
+/* ---------------------------------Responsiv paragraphe 1-------------------------------- */
+
+
+@media screen and (max-width: 1260px){
+  .A-PROPOS-DE-MOI{
+    font-family: 'hansonbold';
+    font-size: 18px;
+    position: absolute;
+    font-weight: lighter;
+    top: 850px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    left: 200px;
+    right: 200px;
+    
+    line-height: 1.5em;
+    
+  }
+
+  }
+  @media screen and (max-width: 1160px){
+    .A-PROPOS-DE-MOI{
+      font-family: 'hansonbold';
+      font-size: 18px;
+      position: absolute;
+      font-weight: lighter;
+      top: 845px;
+      text-align: center;
+      display: grid;
+      place-items: center;
+      left: 100px;
+      right: 100px;
+      line-height: 1.5em;
+      
+}
+@media screen and (max-width: 1020px){
+    .A-PROPOS-DE-MOI{
+      font-family: 'hansonbold';
+      font-size: 18px;
+      position: absolute;
+      font-weight: lighter;
+      top: 850px;
+      text-align: center;
+      display: grid;
+      place-items: center;
+      left: 100px;
+      right: 100px;
+      line-height: 1.5em;
+      
+}
+
+    }
+@media screen and (max-width: 979px){
+  .A-PROPOS-DE-MOI{
+        font-family: 'hansonbold';
+        font-size: 18px;
+        position: absolute;
+        font-weight: lighter;
+        top: 850px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+        left: 100px;
+        right: 100px;
+        line-height: 1.5em;
+        
+      }
+  
+      }
+      @media screen and (max-width: 959px){
+        .A-PROPOS-DE-MOI{
+              font-family: 'hansonbold';
+              font-size: 18px;
+              position: absolute;
+              font-weight: lighter;
+              top: 845px;
+              text-align: center;
+              display: grid;
+              place-items: center;
+              left: 100px;
+              right: 100px;
+              line-height: 1.5em;
+              
+            }
+        
+            }
+
+            @media screen and (max-width: 840px){
+              .A-PROPOS-DE-MOI{
+                    font-family: 'hansonbold';
+                    font-size: 17px;
+                    position: absolute;
+                    font-weight: lighter;
+                    top: 845px;
+                    text-align: center;
+                    display: grid;
+                    place-items: center;
+                    left: 100px;
+                    right: 100px;
+                    line-height: 1.5em;
+                    
+                  }
+              
+                  }
+   @media screen and (max-width: 800px){
+.A-PROPOS-DE-MOI{
+            font-family: 'hansonbold';
+            font-size: 17px;
+            position: absolute;
+            font-weight: lighter;
+            top: 845px;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            left: 100px;
+            right: 100px;
+            line-height: 1.5em;
+            
+          }
+      
+          }
+          @media screen and (max-width: 725px){
+            .A-PROPOS-DE-MOI{
+              font-family: 'hansonbold';
+              font-size: 16px;
+              position: absolute;
+              font-weight: lighter;
+              top: 850px;
+              text-align: center;
+              display: grid;
+              place-items: center;
+              left: 100px;
+              right: 100px;
+              line-height: 1.5em;
+              
+            }
+        
+            }
+            @media screen and (max-width: 680px){
+              .A-PROPOS-DE-MOI{
+                font-family: 'hansonbold';
+                font-size: 14px;
+                position: absolute;
+                font-weight: lighter;
+                top: 845px;
+                text-align: center;
+                display: grid;
+                place-items: center;
+                left: 100px;
+                right: 100px;
+                line-height: 1.5em;
+                
+              }
+          
+              }
+            @media screen and (max-width: 646px){
+              .A-PROPOS-DE-MOI{
+                font-family: 'hansonbold';
+                font-size: 15px;
+                position: absolute;
+                font-weight: lighter;
+                top: 850px;
+                text-align: center;
+                display: grid;
+                place-items: center;
+                left: 100px;
+                right: 100px;
+                line-height: 1.5em;
+                
+              }
+          
+              }
+              @media screen and (max-width: 610px){
+                .A-PROPOS-DE-MOI{
+                  font-family: 'hansonbold';
+                  font-size: 14px;
+                  position: absolute;
+                  font-weight: lighter;
+                  top: 845px;
+                  text-align: center;
+                  display: grid;
+                  place-items: center;
+                  left: 100px;
+                  right: 50px;
+                  line-height: 1.5em;
+                  
+                }
+            
+                }
+                @media screen and (max-width: 548px){
+                  .A-PROPOS-DE-MOI{
+                    font-family: 'hansonbold';
+                    font-size: 13px;
+                    position: absolute;
+                    font-weight: lighter;
+                    top: 850px;
+                    text-align: center;
+                    display: grid;
+                    place-items: center;
+                    left: 100px;
+                    right: 50px;
+                    line-height: 1.5em;
+                    
+                  }
+              
+                  }
+
+                  @media screen and (max-width: 480px){
+                    .A-PROPOS-DE-MOI{
+                      font-family: 'hansonbold';
+                      font-size: 12px;
+                      position: absolute;
+                      font-weight: lighter;
+                      top: 850px;
+                      text-align: center;
+                      display: grid;
+                      place-items: center;
+                      left: 100px;
+                      right: 50px;
+                      line-height: 1.5em;
+                      
+                    }
+                
+                    }
+
+                    @media screen and (max-width: 411px){
+                      .A-PROPOS-DE-MOI{
+                        font-family: 'hansonbold';
+                        font-size: 11px;
+                        position: absolute;
+                        font-weight: lighter;
+                        top: 850px;
+                        text-align: center;
+                        display: grid;
+                        place-items: center;
+                        left: 100px;
+                        right: 50px;
+                        line-height: 1.5em;
+                        
+                      }
+                  
+                      }
+
+
+
+
+
+

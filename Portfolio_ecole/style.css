@@ -1,0 +1,471 @@
+
+@font-face {
+  font-family: 'ts_blockbold';
+  src: url('font/TS-Block/ts_block_bold-webfont.woff2') format('woff2'),
+       url('font/TS-Block/ts_block_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hansonbold';
+  src: url('font/Hanson/hanson-bold-webfont.woff2') format('woff2'),
+       url('font/Hanson/hanson-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin:0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+.Competence{
+  padding-top: 1500px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+h5{
+  font-size: 30px;
+  color: white;
+  font-family: 'ts_blockbold';
+}
+
+
+
+
+/* ---------------------------------TEXTE QUI DEFILE-------------------------------- */
+
+.container{
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  /* right: -70px; */
+  top: 2.5%;
+  transform: translatey(2%);
+}
+.black{
+  color: black;
+}
+.txt{
+  white-space: nowrap;
+  font-size: 18px;
+  animation: ScrollTxt 25s linear infinite;
+  color: white;
+  font-family: 'ts_blockbold';
+
+}
+
+@keyframes ScrollTxt {
+  0%{
+      transform: translate(0,0);
+  }
+  100%{
+      transform: translate(-100%,0);
+  }
+
+}
+
+
+/* ---------------------------------NOM PRENOM-------------------------------- */
+
+.prenom{
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  padding-left: 22%;
+  transform: translatey(50%);
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  z-index: 10;
+}
+
+.timothe{
+  font-size: 70px;
+  font-family: 'ts_blockbold';
+}
+.nom{
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  position: absolute;
+  top: 17%;
+  padding-left: 48%;
+  transform: translatey(50%);
+}
+.HEGE{
+  font-size: 70px;
+  color: white;
+  font-family: 'ts_blockbold';
+}
+
+/* ---------------------------------TXT MIDLE-------------------------------- */
+.txt-dev-contrat{
+  font-size: 25px;
+  color: white;
+  font-family: 'ts_blockbold';
+}
+.text-midl{
+  padding-left: 200px;
+  overflow-x: hidden;
+  width: 100%;
+  position: absolute;
+  top: 47%;
+  display: grid;
+  place-items: center;
+  z-index: 0;
+}
+.aprentissage{
+  display: grid;
+  place-items: center;
+}
+
+/* ---------------------------------PHOTO-------------------------------- */
+.photo{
+  width: 30%;
+  padding-left: 200px;
+  position: absolute;
+  top: 32%;
+  place-items: center;
+}
+/* ---------------------------------Qui Suis je-------------------------------- */
+.text{
+  font-size: 27px;
+  color: white;
+  font-family: 'ts_blockbold';
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: white;
+  z-index: 10;
+}
+.portfolio-experiment{
+  padding-left: 200px;
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  display: grid;
+  place-items: center;
+}
+
+/* --------------------------------- + -------------------------------- */
+
+.plus-360-2:hover{
+transform: rotate(360deg);
+}
+
+.plus-360-1:hover{
+  transform: rotate(360deg);
+}
+.plus1{
+  overflow-x: hidden;
+  font-family: 'lato';
+  color: white;
+  font-size: 280px;
+  position: absolute;
+  top: 480px;
+  left: -70px;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+.plus2{
+  overflow-x: hidden;
+  font-family: 'lato';
+  color: white;
+  font-size: 280px;
+  position: absolute;
+  top: 150px;
+  right: -70px;
+  transition-duration: 0.8s;
+  transition-property: transform;
+
+}
+/* --------------------------------- Vague rouge -------------------------------- */
+.vague-rouge{
+  width: 19%;
+  position: absolute;
+  top: 540px;
+  right: 20px;
+}
+
+/* --------------------------------- Footer -------------------------------- */
+.test-footer{
+  position: absolute;
+  background-image: url(https://res.cloudinary.com/de1hcoekb/image/upload/v1631384487/portfolio/bg-newsletter-1920-1112def10_xtuxbc.jpg);
+  background-repeat: no-repeat;
+  top: 800px;
+  right: 0px;
+  width: 1920px;
+  height: 1080px;
+}
+#footer{
+
+}
+#test-footer li{
+  position: absolute;
+  top: 500px;
+  text-align: center;
+}
+
+#azerty{
+  position: absolute;
+  top: 580px;
+}
+/* --------------------------------- Fleche haut -------------------------------- */
+
+
+.fleche-haut{
+  position: absolute;
+  left: 8px;
+  top: 850px;
+}
+
+.fleche-bas{
+  position: absolute;
+  left: 8px;
+  top: 930px;
+}
+/* --------------------------------- a propos de moi -------------------------------- */
+
+
+#paragraphe{
+
+}
+.A-PROPOS-DE-MOI{
+  font-family: 'hansonbold';
+  font-size: 20px;
+  position: absolute;
+  font-weight: lighter;
+  top: 900px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  left: 200px;
+  right: 200px;
+  line-height: 1.5em;
+}
+
+
+/* --------------------------------- CV -------------------------------- */
+
+
+.image-cv{
+  display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 1400px;
+right: 70px;
+padding-left: 50px;
+margin: 50px 0px auto;
+}
+
+
+#CV{
+  position: absolute;
+  top: 1300px;
+}
+
+
+
+
+
+/* --------------------------------- Animated Bar Graph -------------------------------- */
+
+.bar-graph {
+  list-style: none;
+  margin-top: 100px;
+  padding-right: 800px;
+}
+.bar-wrap {
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(202, 202, 202, 0.2);
+  /* border: 1px solid rgba(243, 243, 243, 0.8); */
+  margin-bottom: 40px;
+}
+.bar-fill {
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-animation: bar-fill 1s;
+  -webkit-animation: bar-fill 1s;
+  -ms-animation: bar-fill 1s;
+  animation: bar-fill 1s;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  height: 15px;
+  width: 0px;
+}
+
+.graph-txt {
+  color: rgb(255, 255, 255);
+  font-family: 'Helvetica';
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+/* --------------------------------- paragraphe 2 -------------------------------- */
+/* #paragraphe2{
+  position: absolute;
+  top: 110em;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  left: 40px;
+
+} */
+/* .fin{
+  font-size: 25px;
+  color: white;
+  font-family: 'hansonbold';
+  line-height: 1.2em;
+
+
+
+
+}
+
+#paragraphe2{
+  font-family: 'hansonbold';
+  font-size: 20px;
+  position: absolute;
+  font-weight: lighter;
+  top: 85em;
+  text-align: left;
+  display: grid;
+  place-items: left;
+  left: 30px; 
+  line-height: 1.5em;
+  padding-right: 770px;
+} */
+
+
+/* --------------------------------- Fleche haut 2 -------------------------------- */
+
+.fleche-haut2{
+  position: absolute;
+  left: 8px;
+  top: 1330px;
+}
+.fleche-bas2{
+  position: absolute;
+  left: 8px;
+  top: 1610px;
+}
+
+/* ---------------------------------Hover Qui Suis je-------------------------------- */
+
+.portfolio-experiment a {
+  color: white;
+  padding: 0.7em calc(0.7em * 1.2);
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  font-size: 1.5em;
+  cursor: pointer;
+  letter-spacing: 0.07em;
+}
+.portfolio-experiment a .text {
+
+  transform: translate3d(0, 0.7em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.portfolio-experiment a:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: #ffffff;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+.portfolio-experiment .line {
+  position: absolute;
+  background: #ffffff;
+}
+.portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
+  width: 3px;
+  bottom: -3px;
+  top: -3px;
+  transform: scale3d(1, 0, 1);
+}
+.portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
+  height: 3px;
+  left: -3px;
+  right: -3px;
+  transform: scale3d(0, 1, 1);
+}
+.portfolio-experiment .line.-right {
+  right: -3px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.portfolio-experiment .line.-top {
+  top: -3px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.portfolio-experiment .line.-left {
+  left: -3px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.portfolio-experiment .line.-bottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+.portfolio-experiment a:hover .text, .portfolio-experiment a:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+
+
+
+.portfolio-experiment a:hover:after, .portfolio-experiment a:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+.portfolio-experiment a:hover .line, .portfolio-experiment a:active .line {
+  transform: scale3d(1, 1, 1);
+}
+.portfolio-experiment a:hover .line.-right, .portfolio-experiment a:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.portfolio-experiment a:hover .line.-top, .portfolio-experiment a:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.portfolio-experiment a:hover .line.-left, .portfolio-experiment a:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.portfolio-experiment a:hover .line.-bottom, .portfolio-experiment a:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}
